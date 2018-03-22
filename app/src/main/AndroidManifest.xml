@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.armscat.photoeditor">
 
     <application
@@ -16,6 +17,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.armscat.photoeditors.Activity.ImageGridActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeTranslucent" />
+        <activity
+            android:name="com.armscat.photoeditors.Activity.ImagePreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeTranslucent" />
+        <activity
+            android:name="com.armscat.photoeditors.Activity.ImagePreviewBaseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/ThemeTranslucent"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.armscat.photoeditors.Activity.TranslucentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeTranslucent" />
+        <activity
+            android:name="com.armscat.photoeditors.Activity.IMGEditActivity"
+            android:theme="@style/ImageEditTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
     </application>
 
 </manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.armscat.photoeditors">
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- <activity -->
+    <!-- android:name=".Activity.ImageGridActivity" -->
+    <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+    <!-- android:screenOrientation="portrait" -->
+    <!-- android:theme="@style/ThemeTranslucent" -->
+    <!-- tools:ignore="WrongManifestParent" /> -->
+    <!-- <activity -->
+    <!-- android:name=".Activity.ImagePreviewActivity" -->
+    <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+    <!-- android:screenOrientation="portrait" -->
+    <!-- android:theme="@style/ThemeTranslucent" -->
+    <!-- tools:ignore="WrongManifestParent" /> -->
+    <!-- <activity -->
+    <!-- android:name=".Activity.ImagePreviewBaseActivity" -->
+    <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+    <!-- android:theme="@style/ThemeTranslucent" -->
+    <!-- tools:ignore="InnerclassSeparator,WrongManifestParent" /> -->
+    <!-- <activity -->
+    <!-- android:name=".Activity.TranslucentActivity" -->
+    <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+    <!-- android:screenOrientation="portrait" -->
+    <!-- android:theme="@style/ThemeTranslucent" -->
+    <!-- tools:ignore="WrongManifestParent" /> -->
+    <!-- <activity -->
+    <!-- android:name=".Activity.IMGEditActivity" -->
+    <!-- android:theme="@style/ImageEditTheme" -->
+    <!-- android:windowSoftInputMode="stateAlwaysHidden" -->
+    <!-- tools:ignore="WrongManifestParent" /> -->
+    <application>
+        <activity android:name=".Activity.PermissionsActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ip_color_primary">#393A3F</color>
+    <color name="ip_color_accent">#1AAD19</color>
+    <color name="view_background">#DADAE8</color>
+
+    <color name="theme_body">#cc22292c</color>
+    <color name="black">#000000</color>
+    <color name="status_bar">#303135</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray4">#A9A9A9</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#33b5e5</color>
+
+    <color name="image_color_primary">#FFFFFF</color>
+    <color name="image_color_accent">#FF9901</color>
+    <color name="common_bg">#ff282828</color>
+
+    <color name="image_color_white">#FFFFFF</color>
+    <color name="image_color_black">#2B2B2B</color>
+    <color name="image_color_red">#FF5151</color>
+    <color name="image_color_cyan">#20FFCD</color>
+    <color name="image_color_yellow">#FFCC00</color>
+    <color name="image_color_blue">#0078FF</color>
+    <color name="text_color_black">#020202</color>
+</resources>
